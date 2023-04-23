@@ -40,8 +40,8 @@ def main():
         if choice == "1":
             slot_type = input("Enter slot type (student/faculty/guest): ")
             user_id = input("Enter user ID: ")
-            start_time = input("Enter start time (YYYY-MM-DD HH:MM:SS): ")
-            end_time = input("Enter end time (YYYY-MM-DD HH:MM:SS): ")
+            start_time = input("Enter start time (HH:MM): ")
+            end_time = input("Enter end time (HH:MM): ")
             print(book_slot(slot_type, user_id, start_time, end_time))
 
         elif choice == "2":
